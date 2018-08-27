@@ -10,7 +10,7 @@ public class Orc implements Enemy {
         this.enemy = enemy;
     }
 
-    public void setEnemy(Enemy enemy) {
+    public void changeEnemyType(Enemy enemy) {
         this.enemy = enemy;
     }
 
