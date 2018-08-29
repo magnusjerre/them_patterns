@@ -7,7 +7,7 @@ public class Main {
         UpperCaseReader upperCaseReader = new UpperCaseReader(simpleReader);
         UpperCaseReader upperSnakeCaseReader = new UpperCaseReader(snakeCaseReader);
 
-        char[] input = "Yolo noNo".toCharArray();
+        char[] input = "DecoraTor Schmeckorator".toCharArray();
         System.out.println("simple reader: " + simpleReader.read(input));
         System.out.println("snakeCase reader: " + snakeCaseReader.read(input));
         System.out.println("upperCaseReader: " + upperCaseReader.read(input));
