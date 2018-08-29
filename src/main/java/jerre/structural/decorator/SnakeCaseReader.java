@@ -1,11 +1,11 @@
 package jerre.structural.decorator;
 
-public class SnakeCaseReader implements BaseReader {
+public class SnakeCaseReader implements IReader {
 
-    private BaseReader reader;
+    private IReader reader;
 
 
-    public SnakeCaseReader(BaseReader reader) {
+    public SnakeCaseReader(IReader reader) {
         this.reader = reader;
     }
 

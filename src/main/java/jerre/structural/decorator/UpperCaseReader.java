@@ -1,10 +1,10 @@
 package jerre.structural.decorator;
 
-public class UpperCaseReader implements BaseReader {
+public class UpperCaseReader implements IReader {
 
-    private BaseReader reader;
+    private IReader reader;
 
-    public UpperCaseReader(BaseReader reader) {
+    public UpperCaseReader(IReader reader) {
         this.reader = reader;
     }
 

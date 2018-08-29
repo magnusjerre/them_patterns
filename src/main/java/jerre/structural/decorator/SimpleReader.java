@@ -1,6 +1,6 @@
 package jerre.structural.decorator;
 
-public class SimpleReader implements BaseReader {
+public class SimpleReader implements IReader {
 
     private char[] buffer;
 

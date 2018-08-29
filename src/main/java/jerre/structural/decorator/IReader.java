@@ -1,6 +1,6 @@
 package jerre.structural.decorator;
 
-public interface BaseReader {
+public interface IReader {
     String read(char[] buffer);
 }
 
