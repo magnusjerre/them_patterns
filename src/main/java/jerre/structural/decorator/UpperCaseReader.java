@@ -9,7 +9,7 @@ public class UpperCaseReader implements IReader {
     }
 
     @Override
-    public String read(char[] buffer) {
-        return reader.read(buffer).toUpperCase();
+    public String read(char[] array) {
+        return reader.read(array).toUpperCase();
     }
 }
