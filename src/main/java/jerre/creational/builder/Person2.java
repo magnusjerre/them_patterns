@@ -3,9 +3,9 @@ package jerre.creational.builder;
 import java.awt.*;
 
 public class Person2 {
-    public final String name;
-    public final int age;
-    public final Color favoriteColor;
+    public final String name;   //Required
+    public final int age;   //Required
+    public final Color favoriteColor;   //Optional
 
     private Person2(String name, int age, Color favoriteColor) {
         this.name = name;
